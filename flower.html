@@ -9,15 +9,17 @@
   <link rel="stylesheet" href="css/style.css">
 
   <!-- Document Title -->
-  <title>FLOWERS</title>
+  <title>HAPPY BIRTHDAY</title>
 </head>
 
 <body class="not-loaded">
   <!-- Background -->
   <div class="night"></div>
 
+  <div class="container">
+    <h1 class="title"><span id="title"></span></h1>
   <!-- Flower -->
-  <div class="flowers">
+  <div class="flowers" style="margin-top: 700px;">
     <div class="flower flower--1">
       <div class="flower__leafs flower__leafs--1">
         <div class="flower__leaf flower__leaf--1"></div>
@@ -313,12 +315,45 @@
       </div>
     </div>
   </div>
+  <div class="cake" style="margin-bottom: 40px; margin-right: 700px;">
+    <div class="layer">
+      <div class="icing"></div>
+    </div>
+    <div class="layer">
+      <div class="icing"></div>
+    </div>
+    <div class="layer">
+      <div class="icing"></div>
+    </div>
+    <div class="candle">
+      <div class="flame"></div>
+    </div>
+  </div>
 
+  <div class="random-images-container"></div>
+
+  <h2 class="from">From: <span id="from"></span></h2>
+</div>
   <!-- Title -->
-  <h1 class="title"><span id="title"></span></h1>
+  <!-- <h1 class="title"><span id="title"></span></h1>
+  <br>
+  <h1 class="from">From: <span id="from"></span></h1> -->
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Remove the not-loaded class to start animations
+      document.body.classList.remove('not-loaded');
+      
+      // You can set custom text here or it can come from main.js
+      // document.getElementById('title').textContent = 'Happy Birthday!';
+      // document.getElementById('from').textContent = 'Your Friend';
+    });
+  </script>
+
+  <script src="js/main.js"></script>
+  <script src="js/confetti.js"></script>
+  <script src="js/random-images.js"></script>
 </body>
 
 </html>
 
-<!-- Import Javascript -->
-<script src="js/main.js"></script>
