@@ -34,6 +34,11 @@ document.addEventListener('DOMContentLoaded', function() {
         'images/image22.jpg',
         'images/image23.jpg',
         'images/image24.jpg',
+        'images/image25.jpg',
+        'images/image26.jpg',
+        'images/image27.jpg',
+        'images/image28.jpg',
+        'images/image29.jpg',
       ],
       // If you don't have these images, we'll use emoji placeholders
       useEmojiBackup: false,
